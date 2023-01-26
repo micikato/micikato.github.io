@@ -1,0 +1,209 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-image: url('Slike/krcko.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+/*#header {
+	width: 100%;
+	height: 100px; 
+	/* background-color: #fcebed
+}*/
+
+p {
+	font-family: Ariel;
+}
+a:hover {
+	cursor: pointer;
+}
+
+#logo {
+	position: absolute;
+	margin: 0px;
+	top: 30px;
+	left: 25px;
+}
+
+#logo #orah {
+	height: 100px;
+	width: 190px;
+}
+
+#logo #orah .k1 {
+	fill: #d19e77;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#logo #orah .k2 {
+	fill: #d9b998;
+}
+#logo #orah .k3 {
+	fill: #fffef2;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s; 
+	transition-delay: 0.3s;
+}
+
+#logo #orah:hover .k1 {
+	fill-opacity: 100%;
+}
+#logo #orah:hover .k3 {
+	fill-opacity: 100%;
+}
+
+
+#meni {
+	position: absolute;
+	margin: 0px;
+	top: 30px;
+	right: 25px;
+}
+
+#meni p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+#meni a {
+	font-family: 'Comfortaa', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+#meni a:hover {
+	color: red;
+}
+
+#meni p a.active {
+	color: red;
+}
+
+#galerija .ukrs {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	right: 105px;
+
+}
+#galerija .ukrs:hover {
+	cursor: pointer;
+}
+#galerija .ukrs .kocka1 {
+	fill: white; 
+}
+#galerija .ukrs .kocka2 {
+	fill: #d9b998; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#galerija .ukrs .kocka3 {
+	fill: white; 
+}
+#galerija .ukrs .kocka4 {
+	fill: white;  
+}
+#galerija .ukrs .kocka5 {
+	fill: white; 
+}
+#galerija .ukrs .kocka6 {
+	fill: #d9b998; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s;
+	transition-delay: 0.2s; 
+}
+#galerija .ukrs .kocka7 {
+	fill: white;  
+}
+#galerija .ukrs .kocka8 {
+	fill: #d9b998; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.9s; 
+	transition-delay: 0.4;
+}
+#galerija .ukrs .kocka9 {
+	fill: #d9b998; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.2s;
+	transition-delay: 0.6s; 
+}
+#galerija .ukrs .kocka10 {
+	fill: #d9b998; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.5s; 
+	transition-delay: 0.8s;
+}
+#galerija .ukrs .kocka11 {
+	fill: white; 
+}
+#galerija .ukrs .kocka12 {
+	fill: #d9b998;
+	fill-opacity: 0%; 
+	transition: fill-opacity 1.8s;
+	transition-delay: 1.0s; 
+}
+#galerija .ukrs .kocka13 {
+	fill: white; 
+}
+
+#galerija .ukrs:hover .kocka2 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka6 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka8 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka9 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka10 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka12 {
+	fill-opacity: 100%;
+}
+
+
+
+/*
+#menislika {
+	width: 100%;
+	background-color: #f7f9fc;
+	display: grid;
+	grid-template-columns: 150px 1fr 150px;
+}
+
+#menislika #slika {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#menislika #slika #pocetna {
+	width: 50vw;
+}
+
+#menislika #slika #pocetna:hover {
+	width: 52vw;
+	cursor: pointer;
+}
+#menislika #slika:hover {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}*/
+
+/*AUTOR*/
+
+

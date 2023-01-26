@@ -1,0 +1,230 @@
+body {
+	background-color: #f7f9fc; /*#bad9ff*/
+}
+
+#header {
+	width: 100%;
+	height: 100px; 
+	/* background-color: #fcebed*/
+}
+
+p {
+	font-family: Ariel;
+}
+a:hover {
+	cursor: pointer;
+}
+
+#logo {
+	position: absolute;
+	padding-top: 2px;
+	padding-left: 10px;
+}
+
+#logo #orah {
+	height: 100px;
+	width: 190px;
+}
+
+#logo #orah .k1 {
+	fill: grey;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#logo #orah .k2 {
+	fill: black;
+}
+#logo #orah .k3 {
+	fill: #fffef2;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s; 
+	transition-delay: 0.3s;
+}
+
+#logo #orah:hover .k1 {
+	fill-opacity: 100%;
+}
+#logo #orah:hover .k3 {
+	fill-opacity: 100%;
+}
+
+
+#meni {
+	position: absolute;
+	margin: 0px;
+	top: 30px;
+	right: 25px;
+}
+
+#meni p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+#meni a {
+	font-family: 'Comfortaa', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+#meni a:hover {
+	color: red;
+}
+
+#meni p a.active {
+	color: red;
+}
+
+#galerija .ukrs {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	right: 105px;
+
+}
+#galerija .ukrs:hover {
+	cursor: pointer;
+}
+#galerija .ukrs .kocka1 {
+	fill: white; 
+}
+#galerija .ukrs .kocka2 {
+	fill: black; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#galerija .ukrs .kocka3 {
+	fill: white; 
+}
+#galerija .ukrs .kocka4 {
+	fill: white;  
+}
+#galerija .ukrs .kocka5 {
+	fill: white; 
+}
+#galerija .ukrs .kocka6 {
+	fill: black; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s;
+	transition-delay: 0.2s; 
+}
+#galerija .ukrs .kocka7 {
+	fill: white;  
+}
+#galerija .ukrs .kocka8 {
+	fill: black; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.9s; 
+	transition-delay: 0.4;
+}
+#galerija .ukrs .kocka9 {
+	fill: black; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.2s;
+	transition-delay: 0.6s; 
+}
+#galerija .ukrs .kocka10 {
+	fill: black; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.5s; 
+	transition-delay: 0.8s;
+}
+#galerija .ukrs .kocka11 {
+	fill: white; 
+}
+#galerija .ukrs .kocka12 {
+	fill: black;
+	fill-opacity: 0%; 
+	transition: fill-opacity 1.8s;
+	transition-delay: 1.0s; 
+}
+#galerija .ukrs .kocka13 {
+	fill: white; 
+}
+
+#galerija .ukrs:hover .kocka2 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka6 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka8 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka9 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka10 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka12 {
+	fill-opacity: 100%;
+}
+
+#jamaznak {
+	height: 75vh;
+	display: flex;
+	margin-left: 410px;
+	margin-right: 110px;
+
+	transition: transform 1s;
+}
+
+#jamaznak:hover {
+	transform: rotate(-90deg);
+}
+
+.krug1 {
+	fill: #f7f9fc;
+	transition: fill 0.3s;
+	transition-delay: 0.1s; 
+}
+
+.krug2 {
+	fill: #f7f9fc;
+	transition: fill 0.6s;
+	transition-delay: 0.3s;
+}
+
+.krug3 {
+	fill: #f7f9fc;
+	transition: fill 0.9s;
+	transition-delay: 0.6s;
+}
+
+#jamaznak:hover .krug1 {
+	fill: black;
+}
+
+#jamaznak:hover .krug2 {
+	fill: black;
+}
+
+#jamaznak:hover .krug3 {
+	fill: black;
+}
+
+
+#jamalogo {
+	height: 133px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-image: url('Slike/cukur.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#jamalogo p {
+	font-family: Ariel;
+	font-size: 33px;
+	color: black;
+	font-style: bold;
+}
+
+

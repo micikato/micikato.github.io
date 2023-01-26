@@ -1,0 +1,231 @@
+body {
+	background-color: #f7f9fc; /*#bad9ff*/
+
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+
+#header {
+	width: 100%;
+	height: 100px; 
+	/* background-color: #fcebed*/
+}
+
+p {
+	font-family: Ariel;
+}
+a:hover {
+	cursor: pointer;
+}
+
+#logo {
+	position: absolute;
+	padding-top: 2px;
+	padding-left: 10px;
+}
+
+#logo #orah {
+	height: 100px;
+	width: 190px;
+}
+
+#logo #orah .k1 {
+	fill: grey;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#logo #orah .k2 {
+	fill: black;
+}
+#logo #orah .k3 {
+	fill: #fffef2;
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s; 
+	transition-delay: 0.3s;
+}
+
+#logo #orah:hover .k1 {
+	fill-opacity: 100%;
+}
+#logo #orah:hover .k3 {
+	fill-opacity: 100%;
+}
+
+
+#meni {
+	position: absolute;
+	margin: 0px;
+	top: 30px;
+	right: 25px;
+}
+
+#meni p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+#meni a {
+	font-family: 'Comfortaa', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+#meni a:hover {
+	color: red;
+}
+
+#meni p a.active {
+	color: red;
+}
+
+#galerija .ukrs {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	right: 105px;
+
+}
+#galerija .ukrs:hover {
+	cursor: pointer;
+}
+#galerija .ukrs .kocka1 {
+	fill: white; 
+}
+#galerija .ukrs .kocka2 {
+	fill: red; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.3s; 
+}
+#galerija .ukrs .kocka3 {
+	fill: white; 
+}
+#galerija .ukrs .kocka4 {
+	fill: white;  
+}
+#galerija .ukrs .kocka5 {
+	fill: white; 
+}
+#galerija .ukrs .kocka6 {
+	fill: red; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.6s;
+	transition-delay: 0.2s; 
+}
+#galerija .ukrs .kocka7 {
+	fill: white;  
+}
+#galerija .ukrs .kocka8 {
+	fill: red; 
+	fill-opacity: 0%;
+	transition: fill-opacity 0.9s; 
+	transition-delay: 0.4;
+}
+#galerija .ukrs .kocka9 {
+	fill: red; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.2s;
+	transition-delay: 0.6s; 
+}
+#galerija .ukrs .kocka10 {
+	fill: red; 
+	fill-opacity: 0%;
+	transition: fill-opacity 1.5s; 
+	transition-delay: 0.8s;
+}
+#galerija .ukrs .kocka11 {
+	fill: white; 
+}
+#galerija .ukrs .kocka12 {
+	fill: red;
+	fill-opacity: 0%; 
+	transition: fill-opacity 1.8s;
+	transition-delay: 1.0s; 
+}
+#galerija .ukrs .kocka13 {
+	fill: white; 
+}
+
+#galerija .ukrs:hover .kocka2 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka6 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka8 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka9 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka10 {
+	fill-opacity: 100%;
+}
+#galerija .ukrs:hover .kocka12 {
+	fill-opacity: 100%;
+}
+
+body #telo {
+	background-color: #f7f9fc;
+	height: 2100px;
+	width: 46%;
+	
+	margin-top: 20px;
+	margin-left: 25%;
+	
+	/*display: flex;
+	justify-content: center;*/
+
+}
+
+body #telo .foto {
+	display: flex;
+
+	margin-top: 5px;
+	margin-left: 25%;
+	background-color: #f7f9fc;
+	width: 48.5%;
+	height: 250px;
+}
+
+body #telo .foto .image {
+	height: 100%;
+	opacity: 80%;
+}
+
+body #telo .foto .image:hover {
+	opacity: 100%; 
+}
+
+body #telo .siroko {
+	
+}
+body #telo .usko {
+	
+}
+
+body #telo .foto #badnjak {
+	margin-left: 20%;
+}
+body #telo .foto #covek2 {
+	margin-left: 22.5%;
+}
+body #telo .foto #bosfor {
+	margin-left: 20%;
+}
+body #telo .foto #pcelaimed {
+	margin-left: 20%;
+}
+body #telo .foto #plamenovi {
+	margin-left: 20%;
+}
+body #telo .foto #poljana {
+	margin-left: 20%;
+}
+body #telo #krst {
+	margin-left: 22%;
+}
+
+
